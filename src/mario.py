@@ -96,7 +96,7 @@ class Mario:
     def update_gui(self):
         '''
         None -> None
-        Update the graphic interface linked to mario data.
+        Updates the graphic interface linked to mario data.
         data.
         '''
         self.draw_text(f'Life: {self.life}', Mario.TEXT_COLOR, (620, 50))
@@ -105,7 +105,7 @@ class Mario:
     def game_over(self):
         '''
         None -> None
-        Draw a text with the game over on the screen.
+        Draws a text with the game over on the screen.
         '''
         text = f'Game over! Your score is: {self.score} points.'
         self.draw_text(text, (255, 255, 255), (150, 400))
@@ -119,7 +119,7 @@ class Mario:
     def jump(self):
         ''' 
         None -> None
-        Make a jump.
+        Makes a jump.
         '''
         if self.grounded:
             self.y_speed = -Mario.JUMP_HEIGHT
