@@ -1,10 +1,8 @@
-<h1 align="center">donkey-kong-py</h1>
+# donkey-kong-py
 
-### A python remake of the Donkey Kong arcade game.
+A python remake of the Donkey Kong arcade game.
 
-## Screenshot
-
-## Used libraries
+## Libraries
 - ``pygame``: [Website](https://www.pygame.org/news) or [Github repository](https://github.com/pygame/pygame)
 
 ## Credits
